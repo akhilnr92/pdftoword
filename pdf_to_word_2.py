@@ -10,7 +10,7 @@ def log():
 word = win32com.client.Dispatch("Word.Application")
 word.visible = 0
 
-path_input = r"C:\Users\akhil\Downloads\new"
+path_input = r"C:\Users\Downloads\new" #pdf file path
 pdfs_path = path_input
 
 os.chdir(path_input)
